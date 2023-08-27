@@ -1,0 +1,36 @@
+#summaryP, #summaryPoints{
+    height:50px;
+    width:200px;
+    background-color:rgb(240, 31, 73);
+    margin:10px;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    border:3px solid red;
+    box-shadow: 3px 3px orange;
+}
+#summaryP,#summaryPoints:hover{
+    cursor: pointer;
+}
+#loading{
+    background-image: url("loading.gif");
+    width:100px;
+    height:100px;
+    background-size: contain;
+    margin:auto;
+    display: none;
+}
+#clipboard{
+    width:200px;
+    height:30px;
+    border-radius:20px;
+    margin-left: 10px;
+    border:none;
+    color:white;
+    font-weight:bolder;
+    box-shadow:3px 2px  rgb(237, 48, 79);
+    background-image:linear-gradient(to right,purple ,rgb(245, 50, 83) );
+}
+#clipboard:hover{
+    cursor:pointer
+}
